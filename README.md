@@ -11,7 +11,8 @@ pip install -r requirements.txt
 ```
 3) Configure environment variables (at minimum `DATABASE_URL`):
 ```bash
-export DATABASE_URL="postgresql://neondb_owner:npg_OjrmycAp9F3E@ep-morning-fire-ahd8sfoh-pooler.c-3.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+export DATABASE_URL="postgresql://neondb_owner:your_password_here@ep-example-123456.us-east-1.aws.neon.tech/neondb?sslmode=require"
+
 export SECRET_KEY="change-me"
 export DEBUG=true
 ```
